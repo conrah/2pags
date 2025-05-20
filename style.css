@@ -49,16 +49,17 @@ a {
 }
 
 .texto h2 {
-  color: #00ccff;
+  color: #007f9f;
 }
 
 .texto p {
   font-size: 1.1em;
   margin-bottom: 20px;
+  color: #5cdeff;
 }
 
 .botoes a {
-  background-color: #0087a9;
+  background-color: #006b86;
   padding: 10px 20px;
   margin-right: 10px;
   border-radius: 8px;
