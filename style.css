@@ -1,26 +1,13 @@
-:root {
-  --cor-fundo-principal: #0d0d0d;
-  --cor-fundo-secundaria: #121212;
-  --cor-texto: #ffffff;
-  --cor-destaque: #007f9f;
-  --cor-botao: #006b86;
-  --cor-botao-hover: #0087a9;
-  --cor-borda-img: #00ccff;
-  --cor-footer: #004747;
-  --cor-link: white;
-  --fonte-padrao: Arial, sans-serif;
-}
-
 body {
   margin: 0;
-  font-family: var(--fonte-padrao);
-  background-color: var(--cor-fundo-principal);
-  color: var(--cor-texto);
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
-  color: var(--cor-link);
+  color: white;
 }
 
 .pagina-principal {
@@ -31,14 +18,19 @@ a {
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
-.conteudo-principal h1,
+.conteudo-principal h1 {
+  font-size: 3em;
+  color: #000000;
+}
+
 .conteudo-principal p {
+  font-size: 1.2em;
   color: #000000;
 }
 
 .pagina-secundaria {
   padding: 40px 20px;
-  background-color: var(--cor-fundo-secundaria);
+  background-color: #121212;
 }
 
 .conteudo-secundario {
@@ -57,17 +49,17 @@ a {
 }
 
 .texto h2 {
-  color: var(--cor-destaque);
+  color: #007f9f;
 }
 
 .texto p {
   font-size: 1.1em;
   margin-bottom: 20px;
-  color: var(--cor-texto);
+  color: #ffffff;
 }
 
 .botoes a {
-  background-color: var(--cor-botao);
+  background-color: #006b86;
   padding: 10px 20px;
   margin-right: 10px;
   border-radius: 8px;
@@ -75,7 +67,7 @@ a {
 }
 
 .botoes a:hover {
-  background-color: var(--cor-botao-hover);
+  background-color: #0087a9;
 }
 
 .imagem {
@@ -87,7 +79,7 @@ a {
 .imagem img {
   max-width: 100%;
   border-radius: 10px;
-  border: 2px solid var(--cor-borda-img);
+  border: 2px solid #00ccff;
 }
 
 footer {
@@ -95,5 +87,5 @@ footer {
   padding: 20px;
   margin-top: 40px;
   font-size: 0.9em;
-  color: var(--cor-footer);
+  color: #004747;
 }
