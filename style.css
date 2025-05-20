@@ -20,12 +20,11 @@ a {
 .conteudo-principal h1 {
   font-size: 25em;
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .conteudo-principal p {
   font-size: 5em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .pagina-secundaria {
