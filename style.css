@@ -66,7 +66,7 @@ a {
 }
 
 .botoes a:hover {
-  background-color: #0087a9;
+  background-color: #000000;
 }
 
 .imagem {
@@ -78,7 +78,7 @@ a {
 .imagem img {
   max-width: 100%;
   border-radius: 10px;
-  border: 2px solid #00ccff;
+  border: 2px solid #000000;
 }
 
 footer {
